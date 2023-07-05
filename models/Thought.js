@@ -25,7 +25,6 @@ const ReactionSchema = new Schema(
   },
   {
     toJSON: {
-      vitruals: true,
       getters: true,
     },
     id: false,
